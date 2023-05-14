@@ -1,0 +1,64 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #ea580c;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+.form-container {
+  padding: 40px;
+  box-shadow: 0px 4px 6px 4px #9aa5b1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.labelEl {
+  font-weight: 600;
+  color: #475569;
+}
+.warning {
+  color: red;
+}
+
+.inputEl {
+  height: 40px;
+  font-size: 20px;
+}
+.button {
+  background-color: #ea580c;
+  color: white;
+  width: 100px;
+  height: 35px;
+  border-radius: 15px;
+  align-self: center;
+  border-width: 0px;
+  outline-style: none;
+  cursor: pointer;
+}
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 4px 6px 4px #9aa5b1;
+  padding: 40px;
+}
+.image {
+  align-self: center;
+}
+.reset-btn {
+  width: 150px;
+}
